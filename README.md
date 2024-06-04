@@ -7,6 +7,9 @@ svn checkout svn://svn.code.sf.net/p/sdcc/code/trunk/sdcc sdcc
 sudo apt-get install pkg-config libusb-1.0-0-dev
 git clone https://github.com/vdudouyt/stm8flash.git && cd stm8flash && make && sudo make install
 sudo apt install default-jre
+
+to use:
+cd /home/joe/git/TSDZ2-Smart-EBike-1/
 chmod +xr /home/joe/git/TSDZ2-Smart-EBike-1/JavaConfigurator.jar
 java -jar JavaConfigurator.jar
 
