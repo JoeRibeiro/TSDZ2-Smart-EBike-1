@@ -1,6 +1,13 @@
 [![Build Action](../../actions/workflows/build.yaml/badge.svg)](../../actions/workflows/build.yaml)
 
-This repository is updated by mbrusa.
+to install
+sudo apt install subversion
+svn checkout svn://svn.code.sf.net/p/sdcc/code/trunk/sdcc sdcc
+sudo apt-get install pkg-config libusb-1.0-0-dev
+git clone https://github.com/vdudouyt/stm8flash.git && cd stm8flash && make && sudo make install
+
+Install java with
+sudo apt install default-jre
 
 This fork is based on the TSDZ2-v0.20beta1 adapted for Tongsheng protocol displays, like stock VLCD5, VLCD6, XH18 or other displays with the same protocol and 6-pin Tonsheng connector, SW102, DZ41 from Enerprof or 850C for TSDZ2.
 With these last displays, the visualization of data and errors must be checked..

@@ -1,3 +1,4 @@
+sudo apt install default-jre
 
  * TongSheng TSDZ2 motor controller firmware
  * by (C) Casainho and EndlessCadence and Leon and mspider65, 20 beta 1 version
