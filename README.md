@@ -13,7 +13,7 @@ cd /home/joe/git/TSDZ2-Smart-EBike-1/
 chmod +xr /home/joe/git/TSDZ2-Smart-EBike-1/JavaConfigurator.jar
 java -jar JavaConfigurator.jar
 
-This fork is based on the TSDZ2-v0.20beta1 adapted for Tongsheng protocol displays, like stock VLCD5, VLCD6, XH18 or other displays with the same protocol and 6-pin Tonsheng connector, SW102, DZ41 from Enerprof or 850C for TSDZ2.
+This fork is based on the TSDZ2-v0.20beta1 adapted for Tongsheng protocol displays, like stock VLCD5, VLCD6, XH18 or other displays with the same protocol and 6-pin Tonsheng connector, SW102, DZ41, 850C or 860C for TSDZ2.
 With these last displays, the visualization of data and errors must be checked..
 
 Endless Sphere forum reference thread: [endless-sphere.com.](https://endless-sphere.com/forums/viewtopic.php?f=30&t=110682).
@@ -38,7 +38,7 @@ This project is being developed and maintained for free by a community of users.
 - Install [ST Visual Development](http://www.st.com/en/development-tools/stvd-stm8.html).
 - Install [Java](https://www.java.com/endownload/).
 - Open JavaConfigurator.jar customize the parameters and click Compile & Flash
-- Or use supplied .bat scripts, e.g. `src/controller/compile_and_flash.bat` 
+- Or use supplied .bat scripts, e.g. `src/compile_and_flash.bat` 
 - With 32-bit Windows systems, replace the files in the \tools\cygwin\bin folder with those in the bin_32.zip file
 
 ### Linux and MacOS
@@ -57,7 +57,7 @@ This project is being developed and maintained for free by a community of users.
 2. Install the SDCC compiler
 
 ### Compile the firmware
-`cd src/controller/` and use `make` or `compile.bat` to compile the firmware.
+`cd src/` and use `make` or `compile.bat` to compile the firmware.
 
 ### Editing environment
 1. VScode can be used for the development.
